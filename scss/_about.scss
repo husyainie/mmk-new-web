@@ -1,0 +1,59 @@
+.banner-about {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    .box-about {
+        width: 100%;
+        position: absolute;
+        height: 200vh;
+        left: 0px;
+        top: 53%;
+        background: linear-gradient(180deg, rgba(55, 135, 2, 0) 0%, #378702 23.28%, #378702 47.59%, #FB5C3E 127.87%);
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+        overflow: hidden;
+        top: 0;
+        z-index: -1;
+    }
+}
+.main-about {
+    width: 80%;
+    position: relative;
+    height: auto;
+    left: 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    .about-img {
+        width: 100%;
+        img {
+            mix-blend-mode: multiply;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            left: 30%;
+            object-fit: contain;
+            overflow: hidden;
+        }
+    }
+    .about-desc {
+        width: 80%;
+        margin: auto;
+        li {
+                padding: 0 10px;
+                margin: 0;
+                font-family: 'Campton';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 30px;
+                color: white;
+            }
+    
+    }
+}

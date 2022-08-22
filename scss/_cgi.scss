@@ -1,0 +1,14 @@
+.cgi-container {
+    width: 80%;
+    height: 80vh;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+}

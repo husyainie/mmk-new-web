@@ -1,0 +1,900 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+@font-face {
+  font-family: "Campton";
+  src: url(fonts/Rene\ Bieder\ -\ Campton\ Bold.otf);
+}
+.main-banner {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+.main-banner .banner-activation {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  top: 0;
+}
+.main-banner .banner-activation img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  margin: 0;
+}
+.main-banner h1 {
+  position: relative;
+  color: white;
+  margin: auto;
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  bottom: 10%;
+}
+.main-banner .quote-activation {
+  width: 40%;
+  margin: 0;
+  position: relative;
+  left: 50%;
+}
+.main-banner .quote-activation .text-quote {
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: right;
+  letter-spacing: -0.05em;
+}
+
+.main-container {
+  width: 80%;
+  height: 200vh;
+  margin: auto;
+  background-color: black;
+  position: relative;
+  top: 0;
+}
+
+.main-medsos {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #FB5C3E;
+}
+.main-medsos .p1 {
+  padding: 10px;
+  margin: 0;
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;
+  color: white;
+  text-align: center;
+}
+
+.banner-about {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.banner-about .box-about {
+  width: 100%;
+  position: absolute;
+  height: 200vh;
+  left: 0px;
+  top: 53%;
+  background: linear-gradient(180deg, rgba(55, 135, 2, 0) 0%, #378702 23.28%, #378702 47.59%, #FB5C3E 127.87%);
+}
+.banner-about img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  z-index: -1;
+}
+
+.main-about {
+  width: 80%;
+  position: relative;
+  height: auto;
+  left: 0px;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.main-about .about-img {
+  width: 100%;
+}
+.main-about .about-img img {
+  mix-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 30%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
+}
+.main-about .about-desc {
+  width: 80%;
+  margin: auto;
+}
+.main-about .about-desc li {
+  padding: 0 10px;
+  margin: 0;
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+}
+
+.main-contact {
+  width: 100%;
+  height: auto;
+  background: rgba(255, 178, 130, 0.4);
+  position: relative;
+  top: 106px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-contact .contact-form {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  left: 5%;
+}
+.main-contact .contact-form label {
+  padding: 10px;
+  margin: 0;
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  display: inline;
+}
+.main-contact .contact-form input {
+  width: 80%;
+  height: 50px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.main-contact .contact-form textarea {
+  width: 80%;
+  height: 300px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.main-contact .contact-form input[type=submit] {
+  background-color: #FB5C3E;
+  color: white;
+  padding: 12px 20px;
+  margin: 50px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  float: right;
+  width: 30%;
+}
+.main-contact .contact-side {
+  position: relative;
+  width: 100%;
+}
+.main-contact .contact-side h2 {
+  position: relative;
+  color: #464646;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 100px;
+}
+.main-contact .contact-side img {
+  position: relative;
+  mix-blend-mode: multiply;
+  width: 70%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  bottom: 10%;
+}
+
+.cgi-container {
+  width: 80%;
+  height: 80vh;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cgi-container video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.gallery-banner {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+.gallery-banner h2 {
+  width: 50%;
+  text-align: right;
+  position: relative;
+  color: #464646;
+  right: 0;
+  margin-left: 30%;
+  top: 100px;
+}
+
+.con-metaverse {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  top: 0;
+}
+.con-metaverse h2 {
+  font-size: 80px;
+  color: #464646;
+  text-align: center;
+}
+.con-metaverse .h2-orange {
+  font-size: 80px;
+  color: #FB5C3E;
+  text-align: center;
+}
+.con-metaverse .metaverse-row {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  top: 0;
+  -moz-columns: 3 250px;
+       columns: 3 250px;
+  gap: 15px;
+  display: flex;
+  border-radius: 10px;
+}
+.con-metaverse .metaverse-row video {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.con-metaverse .metaverse-bts {
+  width: 100%;
+  height: 70vh;
+  margin: 15px 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.con-metaverse .metaverse-bts video {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.con-metaverse .con-digiban {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  top: 0;
+  -moz-columns: 4 250px;
+       columns: 4 250px;
+  gap: 15px;
+  border-radius: 10px;
+  margin: 50px 0;
+}
+.con-metaverse .con-digiban video {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.main-details {
+  width: 100%;
+  height: auto;
+  top: 0;
+  position: relative;
+}
+.main-details img {
+  width: 100%;
+  height: 75vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  position: relative;
+}
+.main-details .desc-details {
+  width: 80%;
+  height: 25vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-details .desc-details .head-details {
+  width: 30%;
+  font-family: "Campton", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 81px;
+  letter-spacing: -0.05em;
+  color: #FB5C3E;
+}
+.main-details .desc-details .p2 {
+  width: 50%;
+  color: black;
+}
+
+.cont-details {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  position: relative;
+}
+.cont-details .big-details {
+  -moz-column-span: all;
+       column-span: all;
+  width: 75%;
+  height: 70vh;
+  right: 25%;
+}
+.cont-details .big-details img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+.cont-details .details-colomn {
+  width: 100%;
+  -moz-columns: 3;
+       columns: 3;
+  gap: 15px;
+  position: relative;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+.cont-details .details-colomn img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Campton", Poppins, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 210px;
+  line-height: 244px;
+  letter-spacing: -0.1em;
+  color: white;
+}
+
+.h1-ungu {
+  font-family: "Campton", Poppins, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 210px;
+  line-height: 244px;
+  letter-spacing: -0.1em;
+  color: #3E203A;
+}
+
+h2 {
+  font-family: "Campton", Poppins, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 116px;
+  letter-spacing: -0.05em;
+  color: white;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.h2-ungu {
+  font-family: "Campton", Poppins, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 116px;
+  letter-spacing: -0.05em;
+  color: #3E203A;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.h2-orange {
+  font-family: "Campton", Poppins, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 116px;
+  letter-spacing: -0.05em;
+  color: #FB5C3E;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.p1 {
+  padding: 10px;
+  margin: 0;
+  font-family: "Campton", Poppins, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.05em;
+  color: white;
+}
+
+.p1-ungu {
+  padding: 10px;
+  margin: 0;
+  font-family: "Campton", Poppins, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.05em;
+  color: #3E203A;
+}
+
+.p2 {
+  padding: 10px;
+  margin: 0;
+  font-family: "Campton", Poppins, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+}
+
+.p2-orange {
+  padding: 10px;
+  margin: 0;
+  font-family: "Campton", Poppins, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FB5C3E;
+}
+
+.p3 {
+  padding: 10px;
+  margin: 0;
+  font-family: "Campton", Poppins, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: white;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+/*-------------- navigation -------------- */
+.navigation {
+  width: 100%;
+  height: 106px;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+.navigation .brand img {
+  width: 127px;
+  height: auto;
+  margin-left: 86px;
+}
+.navigation .nav-menu {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+.navigation .nav-menu .menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+}
+.navigation .nav-menu .menu li {
+  padding: 10px;
+  display: inline-block;
+}
+.navigation .nav-menu .menu li a {
+  padding: 12px 16px;
+  margin: 0;
+  font-family: "Campton", Poppins, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+.navigation .nav-menu .menu li a:hover {
+  background-color: orangered;
+  mix-blend-mode: multiply;
+}
+.navigation .nav-menu .menu li.services .services-content {
+  display: none;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  mix-blend-mode: multiply;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 70%;
+}
+.navigation .nav-menu .menu li.services .services-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.navigation .nav-menu .menu li.services:hover .services-content {
+  display: block;
+}
+.navigation .nav-menu .menu li.services:hover .services-content a:hover {
+  color: white;
+}
+.navigation .mail {
+  height: 24px;
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.navigation .mail a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navigation .mail img {
+  height: 15px;
+  width: auto;
+  padding: 10px;
+}
+
+/*-------------- Hero Banner -------------- */
+.hero-banner {
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: relative;
+  background-color: #FB5C3E;
+}
+.hero-banner .mask_bg {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  opacity: 0.25;
+}
+.hero-banner .mask_bg img {
+  position: relative;
+  width: 100%;
+  left: 0%;
+  right: 0%;
+  top: -0.16%;
+  bottom: 0%;
+  mix-blend-mode: hard-light;
+  opacity: 0.8;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.hero-banner .bg_img {
+  width: 100%;
+  top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  position: absolute;
+}
+.hero-banner .bg_img img {
+  width: 65%;
+  height: auto;
+  position: relative;
+  display: block;
+  padding-top: 110px;
+  margin: auto;
+}
+
+/*-------------- Description -------------- */
+.cont1 {
+  height: auto;
+  padding: 100px 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #FB5C3E;
+}
+.cont1 h1 {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  padding: 0 0 0 10rem;
+}
+.cont1 .desc {
+  padding: 0 10rem 0 2rem;
+  flex-basis: fit-content;
+}
+.cont1 .desc .about {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.cont1 .desc .about a {
+  text-decoration: none;
+}
+
+/*-------------- Project -------------- */
+.cont_project {
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #3E203A;
+}
+.cont_project .lead_project {
+  height: 20%;
+  position: relative;
+}
+.cont_project .lead_project h2 {
+  text-align: center;
+  padding: 25px;
+  margin: 0;
+}
+.cont_project .catagories {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  position: relative;
+  margin: 0;
+}
+.cont_project .catagories .project {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  top: 0;
+  flex-direction: row;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+.cont_project .catagories .project img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  height: 100%;
+}
+
+.quote {
+  width: 75%;
+  background-color: #FB5C3E;
+  position: relative;
+  left: 25%;
+  padding: 50px 0px;
+}
+.quote h2 {
+  color: var(#3E203A);
+  padding: 0 50px;
+}
+
+/*-------------- Client -------------- */
+.client_box {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 100 0;
+  background-color: #3E203A;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.client_box .client_lead {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  align-content: center;
+  margin: 50px 0;
+}
+.client_box .client_lead h2 {
+  margin: 0;
+  text-align: center;
+  top: 0;
+  position: relative;
+}
+.client_box .client_logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: static;
+  bottom: 0;
+  padding: 25px;
+  width: 80%;
+  align-content: center;
+  margin: 50px 0 0 0;
+}
+.client_box .client_logo img {
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 30px;
+  padding: 25px;
+}
+
+/*-------------- Section Footer -------------- */
+.section-footer {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+.section-footer img {
+  mix-blend-mode: normal;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.section-footer .footer_box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #464646;
+  mix-blend-mode: multiply;
+  right: 0;
+  top: 0;
+}
+.section-footer .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 223px;
+  width: 80%;
+}
+.section-footer .footer_desc {
+  position: relative;
+  top: 0;
+  width: 75%;
+}
+.section-footer .footer_desc h2 {
+  font-family: "Campton", Poppins, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 116px;
+  letter-spacing: -0.05em;
+  color: white;
+  margin: 50px 0;
+}
+.section-footer .footer_desc .address {
+  width: auto;
+  position: absolute;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  bottom: 10%;
+  flex-wrap: nowrap;
+}
+.section-footer .get-contact {
+  width: 200px;
+  height: 150px;
+  margin: auto;
+  z-index: 1;
+  position: relative;
+}
+.section-footer .get-contact:hover .circle {
+  transform: scale(15);
+  transition: ease-out;
+  transition-duration: 0.5s;
+}
+.section-footer .get-contact a {
+  text-decoration: none;
+}
+.section-footer .get-contact a .get-in {
+  font-family: "Campton", Poppins, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 60px;
+  letter-spacing: -0.1em;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.section-footer .get-contact a .circle {
+  width: 20px;
+  height: 20px;
+  background-color: #FB5C3E;
+  border-radius: 50%;
+  position: absolute;
+  top: 72%;
+  left: 25%;
+  z-index: -1;
+}/*# sourceMappingURL=main.css.map */
