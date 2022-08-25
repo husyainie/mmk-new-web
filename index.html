@@ -5,49 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MMK</title>
     <link rel="stylesheet" href="./css/main.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- font -->
+    <script src="https://kit.fontawesome.com/a7ea9ce3cb.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-<!-------- Navigation -------->
-    <nav class="navigation">
-        <div class="brand">
-            <img src="./aset-web/home/MMK_Logo.png" alt="logommk">
+    <section class="header">
+        <nav>
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="./aset_web/MMK_Logo.png" alt="MMK-logo">
+                </a>
+            </div>
+            <div class="nav-link" id="navLink">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li class="link-services">
+                        <a href="javascript:void(0)" class="dropbtn">SERVICES</a>
+                        <div class="services-list">
+                          <a href="activation.html">ACTIVATION</a>
+                          <a href="branding.html">BRANDING</a>
+                          <a href="cgi.html">CGI</a>
+                          <a href="digital.html">DIGITAL</a>
+                        </div>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="toggle">
+                <i class="fa-solid fa-ellipsis-vertical" onclick="showMenu()"></i>
+            </div>
+        </nav>
+        <div class="hero-banner">
+            <div class="banner-box"></div>
+            <img src="./aset_web/bg_MMK.png" alt="">
         </div>
-        <div class="nav-menu">
-            <ul class="menu">
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li class="services">
-                    <a href="javascript:void(0)" class="dropbtn">SERVICES</a>
-                    <div class="services-content">
-                      <a href="activation.html">ACTIVATION</a>
-                      <a href="branding.html">BRANDING</a>
-                      <a href="cgi.html">CGI</a>
-                      <a href="digital.html">DIGITAL</a>
-                    </div>
-                </li>
-                <li><a href="gallery.html">GALLERY</a>
-                </li>
-                <li><a href="contact.html">CONTACT</a>
-                </li>
-            </ul>
+        <div class="banner-img">
+            <img src="./aset_web/bg_MMK.png" alt="">
         </div>
-        <div class="mail">
-            <a href="#">
-                <img src="./aset-web/home/mail.svg" alt="mail-icon">
-            </a>
-        </div>
-    </nav>
+    </section>
     
-<!-------- Section Hero Banner -------->
-    <div class="hero-banner">
-        <div class="mask_bg">
-            <img src="./aset-web/home/bg_MMK.png" alt="mmkk_bg">
-        </div>
-        <div class="bg_img">
-            <img src="./aset-web/home/bg_MMK.png" alt="">
-        </div>
-    </div>
-
 <!-------- Section Description -------->
 <div class="cont1">
     <h1><b class="h1-ungu">We</b> are</h1>
@@ -135,12 +138,23 @@
         <div class="get-contact">
             <a href="#">
                 <h2 class="get-in">get in touch</h2>
-                <div class="circle"></div>
+                <button class="circle"></button>
             </a>
         </div>
     </div>
 
 </div>
+
+<!-- Toogle Menu -->
+<script>
+    var navLink = document.getElementById("navLink") ;
+    function showMenu (){
+        navLink.style.right ="0";
+    }
+    function hideMenu (){
+        navLink.style.right ="-300px";
+    }
+   </script>
 
     
 </body>
