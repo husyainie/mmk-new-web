@@ -57,11 +57,27 @@
 
 .main-container {
   width: 80%;
-  height: 200vh;
   margin: auto;
-  background-color: black;
   position: relative;
   top: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: minmax(300px, auto);
+  grid-auto-flow: dense;
+  gap: 15px;
+  margin-bottom: 100px;
+}
+.main-container .container-box {
+  display: grid;
+  transition: 0.5s;
+}
+.main-container .container-box img {
+  position: relative;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .main-medsos {
@@ -251,19 +267,15 @@
   top: 0;
   margin: 0;
   margin-bottom: 50px;
-  align-items: center;
-  align-content: center;
 }
 .container-gallery .gallery-head h2 {
-  width: 70%;
+  width: 50%;
   text-align: right;
   position: relative;
   color: #464646;
-  right: 0;
-  top: 30%;
-  margin: auto;
-  align-items: center;
-  align-content: center;
+  left: 40%;
+  top: 50%;
+  margin: 0;
 }
 .container-gallery .gallery-filter {
   width: 80%;
@@ -301,6 +313,7 @@
   background-color: #464646;
   position: relative;
   margin: auto;
+  margin-bottom: 100px;
 }
 
 .con-metaverse {
@@ -422,42 +435,33 @@
 }
 .main-details .cont-details {
   width: 80%;
-  height: auto;
   margin: auto;
   position: relative;
-  padding: 100px 0;
+  top: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: minmax(300px, auto);
+  grid-auto-flow: dense;
+  gap: 15px;
+  margin-bottom: 100px;
 }
-.main-details .cont-details .big-details {
-  -moz-column-span: all;
-       column-span: all;
-  width: 75%;
-  height: 55vh;
-  right: 25%;
-  margin-bottom: 7.5px;
+.main-details .cont-details .details-project {
+  display: grid;
+  transition: 0.5s;
 }
-.main-details .cont-details .big-details img {
+.main-details .cont-details .details-project img {
+  position: relative;
+  margin-bottom: 10px;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  overflow: hidden;
 }
-.main-details .cont-details .details-colomn {
-  width: 100%;
-  -moz-columns: 3;
-       columns: 3;
-  gap: 15px;
-  position: relative;
-  -moz-column-gap: 15px;
-       column-gap: 15px;
+.main-details .cont-details .details-project:nth-child(1) {
+  grid-column: span 2;
 }
-.main-details .cont-details .details-colomn img {
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  overflow: hidden;
-  padding: 7.5px 0;
+.main-details .cont-details .details-project:nth-child(2) {
+  grid-row: span 2;
 }
 
 body {
