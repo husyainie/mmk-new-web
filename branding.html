@@ -7,36 +7,35 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-<!-------- Navigation -------->
-<nav class="navigation">
-    <div class="brand">
-        <img src="./aset-web/home/MMK_Logo.png" alt="logommk">
-    </div>
-    <div class="nav-menu">
-        <ul class="menu">
-            <li><a href="./index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li class="services">
-                <a href="javascript:void(0)" class="dropbtn">SERVICES</a>
-                <div class="services-content">
-                  <a href="activation.html">ACTIVATION</a>
-                  <a href="branding.html">BRANDING</a>
-                  <a href="cgi.html">CGI</a>
-                  <a href="digital.html">DIGITAL</a>
-                </div>
-            </li>
-            <li><a href="gallery.html">GALLERY</a>
-            </li>
-            <li><a href="contact.html">CONTACT</a>
-            </li>
-        </ul>
-    </div>
-    <div class="mail">
-        <a href="#">
-            <img src="./aset-web/home/mail.svg" alt="mail-icon">
-        </a>
-    </div>
-</nav>
+    <section class="header">
+        <nav>
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="./aset-web/home/MMK_Logo.png" alt="MMK-logo">
+                </a>
+            </div>
+            <div class="nav-link" id="navLink">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li class="link-services">
+                        <a href="javascript:void(0)" class="dropbtn">SERVICES</a>
+                        <div class="services-list">
+                          <a href="activation.html">ACTIVATION</a>
+                          <a href="branding.html">BRANDING</a>
+                          <a href="cgi.html">CGI</a>
+                          <a href="digital.html">DIGITAL</a>
+                        </div>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="toggle">
+                <i class="fa-solid fa-ellipsis-vertical" onclick="showMenu()"></i>
+            </div>
+        </nav>
+    </section>
 
 <!-------- Hero Banner -------->
     <div class="main-banner">
