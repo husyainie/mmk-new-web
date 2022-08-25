@@ -1011,6 +1011,7 @@ h2 {
   height: 20px;
   background-color: #FB5C3E;
   border-radius: 50%;
+  border-style: none;
   position: absolute;
   top: 72%;
   left: 25%;
