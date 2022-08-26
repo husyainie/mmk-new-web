@@ -460,7 +460,7 @@
 .main-details .cont-details .details-project:nth-child(1) {
   grid-column: span 2;
 }
-.main-details .cont-details .details-project:nth-child(2) {
+.main-details .cont-details .details-project:nth-child(3) {
   grid-row: span 2;
 }
 
