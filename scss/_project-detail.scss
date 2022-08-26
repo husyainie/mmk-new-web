@@ -14,7 +14,7 @@
 
     .desc-details {
         width: 80%;
-        height: 25vh;
+        height: auto;
         background-color: white;
         display: flex;
         flex-direction: row;
@@ -24,14 +24,17 @@
         padding: 100px 0;
         
         .head-details {
-            width: 30%;
-            font-family: 'Campton', Arial, Helvetica, sans-serif;
+            width: 100%;
+            font-family: "Campton", Arial, Helvetica, sans-serif;
             font-style: normal;
             font-weight: 700;
             font-size: 70px;
             line-height: 81px;
             letter-spacing: -0.05em;
-            color: $orange-mmk;
+            color: #FB5C3E;
+            margin-top: 0;
+            padding-top: 10px;
+            padding-right: 10px;
         }
 
         .p2 {
@@ -63,13 +66,43 @@
                     height: 100%;
                     object-fit: cover;
                 }
+                .p2 {
+                    color: black;
+                    margin: auto;
+                    text-align: left;
+                    width: 50%;
+                }
         }
-        .details-project:nth-child(1) {
-            grid-column: span 2;
-        }
-        .details-project:nth-child(3) {
+        .details-project:nth-child(2) {
+            grid-column: span 3;
             grid-row: span 2;
         }
+        .details-project:nth-child(3) {
+            grid-column: span 2;
+        }
+        .details-project:nth-child(6) {
+            grid-column: span 2;
+        }
+        .details-project:nth-child(7) {
+            grid-column: span 2;
+        }
     }
+}
 
+@media (max-width: 1000px ) {
+    .desc-details {
+        flex-direction: column !important;
+        .p2 {
+            width: 100% !important;
+        }
+    }
+    .cont-details {
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        grid-template-rows: minmax(auto, auto);
+
+        .details-project {
+            grid-column: unset !important;
+            grid-row: unset !important;
+        }
+    }
 }
